@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #countdown {
+    animation: countdown 1s linear forwards;
+  }
+  
+  @keyframes countdown {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+}
+  
+  
